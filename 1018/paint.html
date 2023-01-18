@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>首頁</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <script src='scripts/main.js'></script>
+</head>
+<body>
+    <div class="bg">
+        <img src="/img/home/lightpaperfibers.png">
+    </div>
+    <div class="title">
+        <div class="tlogo">
+            <a href="index.html"><img src="img/home/logo.png"></a>
+        </div>
+        <ul class="tmenu">
+                <li class="cmitem" font-color="#F9C745">  <a href="index.html" class="cmaitem">首頁</a></li>
+                <li class="mitem">  <a href="service.html" class="maitem">服務介紹</a></li>
+                <li class="mitem"> <a href="works.html" class="maitem">設計作品</a></li>
+                <li class="mitem"> <a href="adapt.html" class="maitem">領養專區</a></li>
+                <li class="smitem"><a href="paint.html" class="smaitem">毛孩似顏繪</a></li>
+        </ul>
+        
+    </div>
+    
+    <img src="img/home/banner.png">
+    <div class="formtotext">
+        <form action="資料傳送到哪裡" method="get/post">
+            <label class="ftitle">填寫訂購資訊</label>
+            <div>  
+                <label>名字</label>
+                <input type="text" name="user_FirstName">
+                <label>姓氏</label>
+                <input type="text" name="user_LastName">
+            </div>
+            <div>  
+                <label>手機號碼</label>
+                <input type="text" name="user_phone">
+            </div>
+            <div>  
+                <label>電子郵件</label>
+                <input type="text" name="user_email">
+            </div>
+            <div>  
+                <label>手機號碼</label>
+                <input type="text" name="user_FirstName">
+            </div>
+            <div>
+                <div>
+                    <label>收件地址</label>
+                    <select name="city">
+                        <option value="default">請選擇城市</option>
+                        <option value="random">隨機</option>
+                    </select>
+                    <select name="area">
+                        <option value="Meili">請選擇區域</option>
+                        <option value="random">隨機</option>
+                    </select>
+                </div>
+                <input type="text" name="user_FirstName" placeholder="請輸入詳細地址">
+            </div>
+            <div>
+                <label>選擇設計師風格</label>
+                <select name="style">
+                    <option value="Meili">Meili</option>
+                    <option value="random">隨機</option>
+                </select>
+            </div>
+            <div>
+                <label>付款方式</label>
+                <select name="payment">
+                    <option value="cod">貨到付款</option>
+                    <option value="card">信用卡付費</option>
+                    <option value="postOffice">郵局匯款</option>
+                </select>
+            </div>
+            <div>
+                <label>加購服務</label>
+                <input type="checkbox" id="wrap" name="plus[]" value="plus_wrap">
+                <label for="wrap">送禮用包裝+100</label>
+                <input type="checkbox" id="noframe" name="plus[]" value="plus_noframe">
+                <label for="noframe">無框畫+250</label>
+            </div>
+            總金額 NT$ 300
+            送出訂購資訊
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <hr size="2px" align="center" width="100%" color="#F9C745">
+        <div class="footer_join">
+            <div class="join_block">
+                <div class="join_pic"><img src="img/home/link01.png" ></div>
+                <div class="join_info">
+                    <ul>
+                        <item class="jsub_title">加入奴才團隊</item><br>
+                        <item class="jsub_info">我也會畫畫，希望能盡一份心力！</item><br>
+                        <item class="jsub_btn"><a href="#">聯絡我們</a></item>
+                    </ul>
+                </div>
+            </div>
+            <div class="join_block">
+                <div class="join_pic"><img src="img/home/link02.png" ></div>
+                <div class="join_info">
+                    <ul>
+                        <item class="jsub_title">加入奴才團隊</item><br>
+                        <item class="jsub_info">我也會畫畫，希望能盡一份心力！</item><br>
+                        <item class="jsub_btn"><a href="#">領養專區</a></item>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_info">Copyright © 2021 撿到寶.All rights reserved.</div>
+    </div>
+</body>
+</html>

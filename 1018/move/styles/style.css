@@ -1,0 +1,58 @@
+html{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 3006px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+body{
+    width: 1200px;
+   margin: 0 auto; 
+}
+p{
+    left: 360px;
+    text-align: center;
+    width: 274px;
+    height: 190px;
+    text-align: left;
+    font: normal normal normal 80px/95px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+hr{
+    top: 254px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #000000;
+    opacity: 1;
+}
+
+img{
+    top: 302px;
+    left: 360px;
+    width: 324px;
+    height: 324px;
+    /* UI Properties */
+    background: transparent url('images/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+p{
+/* Layout Properties */
+top: 674px;
+left: 360px;
+width: 128px;
+height: 48px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 32px/48px PingFang TC;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+}
